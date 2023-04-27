@@ -1,0 +1,1 @@
+* The **orthographic projection** ignores perspective. Clicking the label under the axis widget at the top right of the scene window toggles between orthographic and perspective mode.
