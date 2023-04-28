@@ -5,7 +5,7 @@
 
 ## About
 This is the project by [Catlike Coding's tutorial](https://catlikecoding.com/unity/tutorials/basics/building-a-graph/).   
-This is an animated sine wave with changing block colours and possibility to change resolution of graph (in inspector of Graph object). Two different shaders with different render pipelines (Point Surface - shader with default RP; Point URP - shader with Universal RP) were created.
+This is an animated sine wave with changing block colours and possibility to change resolution of graph (in inspector of Graph object). There are two different shaders with different render pipelines (Point Surface - shader with default RP; Point URP - shader with Universal RP).
 ## Documentation
 Colours in shaders depend on parameters:
 * Point Surface - R and B colour components depend on X and Y.
