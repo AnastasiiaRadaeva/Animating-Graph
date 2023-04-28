@@ -20,11 +20,8 @@ Shader "Graph/Point Surface" //It begins with the Shader keyword followed by a s
 		{
 			surface.Albedo.gb = saturate(input.worldPos.xy * 0.5 + 0.5);
 			surface.Smoothness = _Smoothness;
-			
 		}
-        
         ENDCG
     }
-    
-    FallBack "Diffuse" //fallback to the standard diffuse shader
+	FallBack "Diffuse" //fallback to the standard diffuse shader
 }
